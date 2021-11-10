@@ -3,6 +3,7 @@
 import random
 print("Choose your class")
 playerClass = str(input())
+#Player classes
 if playerClass == "mage":
     class MA(object):
         """docstring for mage."""
@@ -14,6 +15,6 @@ if playerClass == "mage":
             self.mana = mana
             self.critChance = critChance
     mage = MA(random.randint(1,100), 1000, 200, 10)
-
+#Not complete. WORK ON NEXT, STUPID!!!!!
 while playerClass.mage.health > 0:
     print("alive)")
