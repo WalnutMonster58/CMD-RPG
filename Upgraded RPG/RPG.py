@@ -196,7 +196,7 @@ while playerClass.health > 0:
                             afflictionTimer = afflictionTimer - 1
                             print(enemyClass.health)
 
-
+#testing
 
 
                 if enemyClass.health < 0:
