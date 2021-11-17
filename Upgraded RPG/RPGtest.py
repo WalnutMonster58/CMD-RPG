@@ -5,7 +5,6 @@ print("Choose your class")
 playerClass = str(input())
 enemy = 1
 enemyClass = 1
-dead = 0
 #Player classes
 if playerClass == "mage":
     class mage(object):
